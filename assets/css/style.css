@@ -184,6 +184,10 @@ body { background: var(--smoky-black); }
     z-index: 1;
     transition: var(--transition-1);
 }
+.a{
+    text-decoration: none;
+    color: hsl(45, 100%, 72%);
+}
 .sidebar,
 article {
   background: var(--eerie-black-2);
