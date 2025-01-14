@@ -1173,12 +1173,12 @@
           <form action="#" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" id="name" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="email" id="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
             <button type="submit" class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
@@ -1204,6 +1204,7 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/submit.js"></script>
 
   <!--
     - ionicon link
