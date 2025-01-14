@@ -1,4 +1,3 @@
-w.start();
 let f = document.getElementById("form");
 f.addEventListener("submit", s => {
     s.preventDefault();
